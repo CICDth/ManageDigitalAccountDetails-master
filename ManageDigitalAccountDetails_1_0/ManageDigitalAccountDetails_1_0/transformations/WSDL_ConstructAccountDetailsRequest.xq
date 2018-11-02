@@ -14,5 +14,4 @@ declare function xf:WSDL_ConstructAccountDetailsRequest($createAccount_1 as elem
 };
 
 declare variable $createAccount_1 as element(ns0:createAccount_1) external;
-
 xf:WSDL_ConstructAccountDetailsRequest($createAccount_1)
