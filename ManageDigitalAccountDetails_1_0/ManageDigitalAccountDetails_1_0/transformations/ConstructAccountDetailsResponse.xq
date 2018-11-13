@@ -7,7 +7,8 @@ declare namespace xf = "http://tempuri.org/ManageDigitalAccountDetails_1_0/trans
 declare function xf:ConstructAccountDetailsResponse($anyType as element(*))
     as element(*) {
         <Response>
-        <Balance>{"25K"}</Balance>
+        
+		<Balance>{"25K"}</Balance>
         <LastTransactionDetails>{"Time:10.00,Amount:10K,Debit,Status:Success"}</LastTransactionDetails>
         </Response>
 };

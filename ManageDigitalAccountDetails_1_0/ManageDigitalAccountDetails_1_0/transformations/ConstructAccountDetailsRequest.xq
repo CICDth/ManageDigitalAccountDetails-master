@@ -7,7 +7,8 @@ declare namespace xf = "http://tempuri.org/ManageDigitalAccountDetails_1_0/trans
 declare function xf:ConstructAccountDetailsRequest($anyType as element(*),$configXML as element(*))
     as element(*) {
        <Request>
-		<AccountNumber>{ data($configXML/AccountNumber) }</AccountNumber>
+
+	   <AccountNumber>{ data($configXML/AccountNumber) }</AccountNumber>
 		<BranchName>{data($configXML/BranchName)}</BranchName>
        </Request>
 };
