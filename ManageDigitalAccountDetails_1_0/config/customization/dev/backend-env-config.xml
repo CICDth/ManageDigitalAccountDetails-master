@@ -18,6 +18,7 @@
                     THIS URL REPRESENTS THE ACTUAL URL FOR AN ENVIRONMENT (Applied to the ALSB Business Service)
             -->
           <tran:URI>https://www.google.co.in</tran:URI>
+		  <!-- SOME COMMENTS -->
           <tran:weight>0</tran:weight>
         </tran:tableElement>
       </xt:value>
