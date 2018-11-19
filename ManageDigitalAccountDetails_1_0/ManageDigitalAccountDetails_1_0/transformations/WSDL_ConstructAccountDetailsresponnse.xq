@@ -8,7 +8,8 @@ declare namespace ns0 = "http://soa.o2.co.uk/managedigitalaccountdetailsdata_1";
 declare function xf:WSDL_ConstructAccountDetailsresponnse($anyType as element(*))
     as element(ns0:createAccount_1Response) {
         <ns0:createAccount_1Response>
-        <ns0:Balance>{"25K"}</ns0:Balance>
+        
+		<ns0:Balance>{"25K"}</ns0:Balance>
         <ns0:LastTransactionDetails>{"Time:10.00,Amount:10K,Debit,Status:Success"}</ns0:LastTransactionDetails>
         </ns0:createAccount_1Response>
 };
