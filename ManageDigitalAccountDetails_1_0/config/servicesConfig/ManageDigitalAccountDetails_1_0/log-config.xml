@@ -5,7 +5,6 @@
  
 -->
 <lc:logConfig layer="ALSB" xmlns:lc="http://soa.o2.co.uk/config/LogConfig">	
-	
 	<lc:service name="ManageDigitalAccountDetails_1_0">
 	
 			
