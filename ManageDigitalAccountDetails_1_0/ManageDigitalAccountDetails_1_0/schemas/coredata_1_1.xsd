@@ -18,6 +18,7 @@
 	25/06/2009  	1.0.2         Venkata Karhtik      	Added types for credit/debit card related elements, customerTier,emailAddressType and postcode
 	12/04/2008  	1.0.1         Kapil Gosian       	Initial version
 -->
+
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 	xmlns:xcore="http://soa.o2.co.uk/coredata_1"
 	targetNamespace="http://soa.o2.co.uk/coredata_1"
