@@ -7,6 +7,7 @@
       <con3:name>ManageDigitalAccountDetailsPortTypePort</con3:name>
         <con3:namespace>http://soa.o2.co.uk/managedigitalaccountdetailsservice_1</con3:namespace>
       </con3:port>
+	  
       <con3:selector type="SOAP body"/>
     </ser:binding>
 	<ser:monitoring isEnabled="false">
