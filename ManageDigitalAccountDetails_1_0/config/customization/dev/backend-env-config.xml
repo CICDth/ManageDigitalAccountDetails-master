@@ -7,6 +7,7 @@
       <xt:location xsi:nil="true"/>
       <xt:owner>
         <xt:type>BusinessService</xt:type>
+		
         <!--
                     THIS PATH should be updated to reflect <ALSBProject>/<folder>/<ALSB Business Service>
         -->
@@ -14,6 +15,7 @@
       </xt:owner>
       <xt:value>
         <tran:tableElement xmlns:tran="http://www.bea.com/wli/sb/transports">
+		
            <!--
                     THIS URL REPRESENTS THE ACTUAL URL FOR AN ENVIRONMENT (Applied to the ALSB Business Service)
             -->
