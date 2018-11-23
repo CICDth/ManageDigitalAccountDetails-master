@@ -2,8 +2,7 @@
 <xml-fragment xmlns:tran="http://www.bea.com/wli/sb/transports" xmlns:env="http://www.bea.com/wli/config/env" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ser:coreEntry isProxy="false" isEnabled="true" isTracingEnabled="false" xmlns:ser="http://www.bea.com/wli/sb/services">
     <ser:description>This business service talks to OrderEnquiry Adapter Service.</ser:description>
-   
-   <ser:binding type="abstract XML"/>
+    <ser:binding type="abstract XML"/>
     <ser:monitoring isEnabled="false">
       <ser:aggregationInterval>10</ser:aggregationInterval>
     </ser:monitoring>

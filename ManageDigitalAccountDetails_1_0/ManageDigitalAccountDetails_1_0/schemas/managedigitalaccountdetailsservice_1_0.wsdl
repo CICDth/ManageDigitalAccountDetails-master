@@ -14,8 +14,7 @@
 		<wsdl:part name="createAccount_1Response" element="mtd:createAccount_1Response"/>
 	</wsdl:message>
 	<wsdl:message name="createAccount_1Fault">
-	
-	<wsdl:part name="createAccount_1Fault" element="mtd:createAccount_1Fault"/>
+		<wsdl:part name="createAccount_1Fault" element="mtd:createAccount_1Fault"/>
 	</wsdl:message>
 	
 	<wsdl:portType name="ManageDigitalAccountDetailsPort">

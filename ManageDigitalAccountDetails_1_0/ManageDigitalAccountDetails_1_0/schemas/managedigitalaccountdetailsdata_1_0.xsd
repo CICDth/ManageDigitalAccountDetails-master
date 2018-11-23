@@ -11,7 +11,6 @@
 			</xsd:documentation>
 		</xsd:annotation>
 	</xsd:element>
-	
 	<xsd:element name="createAccount_1Response" type="mtd:createAccount_1Response">
 		<xsd:annotation>
 			<xsd:documentation>
