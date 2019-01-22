@@ -9,8 +9,8 @@
       </con3:port>
 	  <con3:selector type="SOAP body"/>
     </ser:binding>
-    
-	<ser:monitoring isEnabled="false">
+	
+    <ser:monitoring isEnabled="false">
       <ser:aggregationInterval>10</ser:aggregationInterval>
       <ser:pipelineMonitoringLevel>Pipeline</ser:pipelineMonitoringLevel>
     </ser:monitoring>
