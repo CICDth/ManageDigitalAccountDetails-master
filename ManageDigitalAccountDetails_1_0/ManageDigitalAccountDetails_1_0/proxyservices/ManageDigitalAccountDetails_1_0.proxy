@@ -16,7 +16,8 @@
    <ser:reporting>true</ser:reporting>
     <ser:logging isEnabled="true">
       <ser:logLevel>debug</ser:logLevel>
-    </ser:logging>	  
+    </ser:logging>
+	  
     <ser:sla-alerting isEnabled="true">
       <ser:alertLevel>normal</ser:alertLevel>
     </ser:sla-alerting>
