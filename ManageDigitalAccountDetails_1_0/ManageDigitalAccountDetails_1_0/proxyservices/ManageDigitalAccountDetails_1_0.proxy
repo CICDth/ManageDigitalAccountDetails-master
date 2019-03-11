@@ -63,7 +63,6 @@
             </con1:expr>
           </con1:javaCallout>
         </con:actions>
-	      
       </con:stage>
       <con:stage name="Retrieves Config Data1">
         <con:comment>Fetches service configuration data from the
