@@ -29,8 +29,7 @@
     </ser:ws-policy>
   </ser:coreEntry>
   <ser:endpointConfig>
-	  
-    <tran:provider-id>http</tran:provider-id>
+  <tran:provider-id>http</tran:provider-id>
     <tran:inbound>true</tran:inbound>
     <tran:URI>
       <env:value>/ManageDigitalAccountDetails_1_0/proxyservices/ManageDigitalAccountDetails_1_0</env:value>
