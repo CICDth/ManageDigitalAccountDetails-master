@@ -43,6 +43,7 @@
     </tran:provider-specific>
   </ser:endpointConfig>
   <ser:router>
+	  
     <con:pipeline type="request" name="PipelinePairNode2_request">
       <con:stage name="Logging Request1">
         <con:comment>LoggingThe incoming Request</con:comment>
