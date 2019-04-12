@@ -28,8 +28,7 @@
       <ser:binding-mode>wsdl-policy-attachments</ser:binding-mode>
     </ser:ws-policy>
   </ser:coreEntry>
-	
-  <ser:endpointConfig>
+<ser:endpointConfig>
   <tran:provider-id>http</tran:provider-id>
     <tran:inbound>true</tran:inbound>
     <tran:URI>
