@@ -5,7 +5,7 @@
     <ser:binding type="SOAP" isSoap12="false" xsi:type="con3:SoapBindingType" xmlns:con3="http://www.bea.com/wli/sb/services/bindings/config">
       <con3:wsdl ref="ManageDigitalAccountDetails_1_0/schemas/managedigitalaccountdetailsservice_1_0"/>
       <con3:port>
-        <con3:name>ManageDigitalAccountDetailsPortTypePort</con3:name>
+	  <con3:name>ManageDigitalAccountDetailsPortTypePort</con3:name>
         <con3:namespace>http://soa.o2.co.uk/managedigitalaccountdetailsservice_1</con3:namespace>
       </con3:port>
 	  <con3:selector type="SOAP body"/>
@@ -18,7 +18,6 @@
     <ser:logging isEnabled="true">
       <ser:logLevel>debug</ser:logLevel>
     </ser:logging>
-	  
     <ser:sla-alerting isEnabled="true">
       <ser:alertLevel>normal</ser:alertLevel>
     </ser:sla-alerting>
@@ -29,9 +28,8 @@
       <ser:binding-mode>wsdl-policy-attachments</ser:binding-mode>
     </ser:ws-policy>
   </ser:coreEntry>
-  <ser:endpointConfig>
-	  
-    <tran:provider-id>http</tran:provider-id>
+<ser:endpointConfig>
+  <tran:provider-id>http</tran:provider-id>
     <tran:inbound>true</tran:inbound>
     <tran:URI>
       <env:value>/ManageDigitalAccountDetails_1_0/proxyservices/ManageDigitalAccountDetails_1_0</env:value>
@@ -42,7 +40,6 @@
       <http:inbound-properties/>
     </tran:provider-specific>
   </ser:endpointConfig>
-	
   <ser:router>
     <con:pipeline type="request" name="PipelinePairNode2_request">
       <con:stage name="Logging Request1">
@@ -214,6 +211,7 @@ service-config file.</con:comment>
       </con:stage>
     </con:pipeline>
     <con:flow>
+	    
       <con:pipeline-node name="PipelinePairNode2">
         <con:request>PipelinePairNode2_request</con:request>
         <con:response>PipelinePairNode2_response</con:response>
